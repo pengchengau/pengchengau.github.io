@@ -10,11 +10,7 @@ body {
 	background: white;
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
-	/* margin: 30; */
-    margin-top: 30px;     /* 顶部边距 */
-    margin-right: 60px;   /* 右侧边距 */
-    margin-bottom: 30px;  /* 底部边距 */
-    margin-left: 60px;    /* 左侧边距 */
+	 margin: 20px 80px;
 }
 
 #layout-menu {
