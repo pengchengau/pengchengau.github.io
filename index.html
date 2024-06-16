@@ -13,17 +13,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 100%;
         height: auto;
-        max-width: 100%;
         overflow: hidden;
     }
-    .responsive-container img {
-        max-width: 90%;
+    .img1 {
+        max-width: 90%; /* 适用于 wirelessAI.jpg 的宽度 */
+        max-height: 100vh;
         height: auto;
         object-fit: contain;
     }
-</style>
+    .img2 {
+        max-width: 80%; /* 适用于 anotherImage.jpg 的宽度 */
+        max-height: 100vh;
+        height: auto;
+        object-fit: contain;
+    }
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -47,7 +52,7 @@ E-mail: p.cheng AT latrobe.edu.au</a></p>
 <p><b>06/2024</b>  Personal website is accessible </p>
 <h2>Recent Research (Big Picture)</h2>
 <div class="responsive-container">
-    <img src="photos/wirelessAI.jpg" alt="A beautiful scenery">
+    <img src="photos/wirelessAI.jpg" alt="wirelessAI" class="img1">
 </div>
 <p>My current research focuses on AI-driven IoT and its impact on connectivity and intelligence. The above figure highlights a data lifecycle with four main entities: 1) Data generation through monitoring by smart IoT devices, 2) Data transfer via networks like 4G/5G or Wi-Fi to the Internet, 3) Data collection by custodians using cloud services, and 4) Access and analysis of data by consumers for big data mining. The  data lifecycles also involves two shortcuts: one from the physical world directly to data receivers (wireless sensing), and another bypassing both generators and receivers to reach custodians. AI functions are typically centralized in clouds or data centers for big data analysis. My research aims to push AI capabilities to the network edge, i.e., bringing computation functions to data, close to data generators and receivers. This includes </p>
 <ul>
@@ -73,7 +78,7 @@ E-mail: p.cheng AT latrobe.edu.au</a></p>
 <ul>
 <li><p>Compressive Sensing (CS) for Wireless Networks: CS is a powerful signal processing technique that leverages the sparsity of signals to efficiently acquire and reconstruct data. In the context of wireless networks, CS can significantly enhance performance and efficiency in various ways, including reducing the amount of data to be transmitted, improving signal quality, and optimizing resource usage. The following work exploits CS to achieve channel estimation for OFDM systems over doubly selective channels.</p>
   <div class="responsive-container">
-    <img src="photos/ffchannel.jpg" alt="A beautiful scenery">
+    <img src="photos/ffchannel.jpg" alt="DS channel" class="img2">
 </div>
 </li>
 </li>
