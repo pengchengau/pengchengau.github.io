@@ -6,8 +6,22 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" />
-<link rel="bookmark" href="favicon.ico" type="image/x-icon"　/>
+<link rel="bookmark" href="favicon.ico" type="image/x-icon" />
 <title></title>
+<style>
+    .responsive-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .responsive-container img {
+        width: 100%;
+        height: auto;
+        object-fit: contain; /* 可以是 cover, contain, fill 等 */
+    }
+</style>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -31,8 +45,9 @@ E-mail: p.cheng AT latrobe.edu.au</a></p>
 <p><b>06/2024</b>  Personal website is accessible </p>
 <h2>Recent Research (Big Picture)</h2>
 <p>My research interests include: </p>
-<img src="photos/wirelessAI.jpg" alt="A beautiful scenery" width="1500" height="700">
-<ul>
+<div class="responsive-container">
+    <img src="photos/wirelessAI.jpg" alt="A beautiful scenery">
+</div>
 <li><p>Machine Learning  </p>
 </li>
 <li><p>Deep Learning</p>
