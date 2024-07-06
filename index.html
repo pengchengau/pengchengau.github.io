@@ -41,6 +41,16 @@
         height: auto;
         object-fit: contain;
     }
+    figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0; /* Optional: adjust as needed */
+        }
+        figcaption {
+            text-align: center;
+            margin-top: 8px; /* Optional: adjust as needed */
+        }
 </style>
 </head>
 <body>
@@ -85,10 +95,12 @@ E-mail: p.cheng AT latrobe.edu.au</a></p>
 <ul>
   <li><p>WiFi Sensing </p>
     <div class="responsive-container">
+      <figure>
           <img src="photos/environment.jpg" alt="environment" class="img4">
           <figcaption> We develp a novel multi-task contrastive
             learning framework for concurrent detection of respiration
             and heart rates with WiFi Sensing.</figcaption>
+      </figure>
   </div>
   
   </li> 
